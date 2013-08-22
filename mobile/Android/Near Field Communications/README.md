@@ -305,7 +305,9 @@ Hold two devices together and see what happens. When a is message pushed from on
 
 ### d. Read pushed message (on the receiver side)
 Are you able to filter out the right external type record on the reciever side?
+
 Hint 1: A pushed NDEF message can be read the same was as a tag
+
 Hint 2: The Android Application Record is also an External Type record.
 
 ### e. Post push message notification
