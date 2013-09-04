@@ -274,7 +274,7 @@ In the `onNewIntent()` method
 3. Compose a new NDEF message and write it to the tag
 4. Update the GUI with the resulting number
 
-Hint: Use instanceof to check the record type. 
+Hint: Use the `instanceof` operator to check the record type. 
 
 Task 5 - device to device communication: Android Beam
 =====================================================
