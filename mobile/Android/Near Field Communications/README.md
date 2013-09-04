@@ -28,9 +28,10 @@ Requirements - bring this
 * Eclipe with Android SDK installed
     * Install [NFC plugin](http://nfc-eclipse-plugin.googlecode.com) from update site http://nfc-eclipse-plugin.googlecode.com/git/nfc-eclipse-plugin-feature/update-site/ 
 * Check out this (https://github.com/greenbird/workshops.git) Git repository. Alternatively, [download zip](https://github.com/greenbird/workshops/archive/master.zip). 
-* Add all the projects to your workspace __AND MAKE SURE THEY BUILD SUCCESSFULLY__. Use the same Android SDK as your phone.
+* Add all the projects to your workspace __AND MAKE SURE THEY BUILD SUCCESSFULLY__. 
+Use the same Android SDK as your phone - update each project correspondingly by right-clicking the project -> Properties -> Android -> Project Build Target and selecting the correct Android SDK version. 
 
-Note that Eclipse is merely required for the NDEF editor, so you can still use your favorite editor for the rest of the tasks. Just make sure the base project imports successfully.
+Note that Eclipse is merely required for the NDEF editor, so you can still use your favorite editor for the rest of the tasks.
 
 Task 1 - Create new NDEF message and write to tag using tool
 =========================
