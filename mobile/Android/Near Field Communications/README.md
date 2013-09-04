@@ -43,7 +43,7 @@ Create a new file in the root of the project using New -> Other -> Near Field Co
 Hint: NDEF is a data format used in tags.
 ### c. Add an Android Application Record
 1. Read online documentation about [Android Application Records](http://developer.android.com/guide/topics/nfc/nfc.html#aar).
-2. Create an Android Application Record with package name '__no.java.schedule__' using the NDEF editor.
+2. Create an Android Application Record with package name __no.java.schedule__ using the NDEF editor.
 
 Hint: Open NDEF file and right-click on the table.
 ### d. Write the NDEF message to a tag.
@@ -57,12 +57,12 @@ Hint: If get tag write IOException, try scanning again a bit slower.
 ### e. Try out the newly created tag
 Close the NFC Developer app and navigate to the home screen. Make sure your Android device is online. What happens when you scan the tag?
 
-Hint: If you do not already have an application with identifier '__[no.java.schedule](https://play.google.com/store/search?q=no.java.schedule&c=apps)'__ installed, Android will search for it at [Google Play](https://play.google.com/store).
+Hint: If you do not already have an application with identifier __[no.java.schedule](https://play.google.com/store/search?q=no.java.schedule&c=apps)__ installed, Android will search for it at [Google Play](https://play.google.com/store).
 
 Task 2 - Discover tag - Hello NFC tag
 ===========================
 ### a. Launch Hello World application via NFC
-Launch (run) the empty __HelloWorldNFC Base__ project, so that it gets installed on your device. Update the NDEF message from the previuos task so that the Android Application package is '__com.helloworld.nfc__', and write it to the tag. 
+Launch (run) the empty __HelloWorldNFC Base__ project, so that it gets installed on your device. Update the NDEF message from the previuos task so that the Android Application package is __com.helloworld.nfc__, and write it to the tag. 
 ### b. Change Hello World text by scanning a tag
 We want to receieve NFC messages when our application is showing on the screen. 
 
